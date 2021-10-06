@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FORMULIR PPDB</title>
+</head>
+<body>
+	<h2 style="text-align: center;">FORMULIR PENDAFTARAN</h2>
+	<form action="Register.php">
+	<fieldset>
+	<legend>INFO PENDAFTARAN</legend>
+	<table>
+		<tr>
+			<td><label for="fnisn">NISN</label></td>
+			<td><input type="number" id="fnisn" name="fnisn" size="50"></td>
+		</tr>
+		<tr>
+			<td><label>Asal Sekolah</label></td>
+			<td><input type="text" name="sekolah"></td>
+		</tr>
+		<tr>
+			<td><label>Tahun Lulus</label></td>
+			<td><input type="number" name="tahun"></td>
+		</tr>
+		<h4>DATA CALON PESERTA</h4>
+		<tr>
+			<td><label>Nama Lengkap</label></td>
+			<td><input type="text" name="nama"></td>
+		</tr>
+		<tr>
+			<td><label>NIK</label></td>
+			<td><input type="text" name="nik"></td>
+		</tr>
+		<tr>
+			<td><label>No KK</label></td>
+			<td><input type="text" name="kk"></td>
+		</tr>
+		<tr>
+			<td><label>Tempat/Tanggal Lahir</label></td>
+			<td><input type="text" name="ttl"></td>
+		</tr>
+		<tr>
+			<td><label>Jenis kelamin</label></td>
+			<td><label><input type="radio" name="jeniskelamin" value="lakilaki">Laki-laki</label></td>
+			<td><label><input type="radio" name="jeniskelamin" value="perempuan">Perempuan</label></td>
+		</tr>
+		<tr>
+			<td><label>Agama</label></td>
+			<td><select>
+				<option value="islam">Islam</option>
+				<option value="kristen">Kristen</option>
+				<option value="katolik">Katolik</option>
+				<option value="hindu">Hindu</option>
+				<option value="Budha">Budha</option>
+			</select></td>
+		</tr>
+		<tr>
+			<td><label>Alamat</label></td>
+			<td><input type="text" name="alamat"></td>
+		</tr>
+		<tr>
+			<td><label>Desa/Kel.</label></td>
+			<td><input type="text" name="desa"></td>
+		</tr>
+		<tr>
+			<td><label>Kecamatan</label></td>
+			<td><input type="text" name="kecamatan"></td>
+		</tr>
+		<tr>
+			<td><label>Kabupaten/Kota</label></td>
+			<td><input type="text" name="kota"></td>
+		</tr>
+		<tr>
+			<td><label>Provinsi</label></td>
+			<td><input type="text" name="provinsi"></td>
+		</tr>
+		<tr>
+			<td><label for="phone">Nomer HP</label></td>
+			<td><input type="tel" name="phone" placeholder="0123-3456-6789" pattern="[0-9]{4}-[0-9]{4}-[0-9]{4}"></td>
+		</tr>
+		<tr>
+			<td><label>E-mail</label></td>
+			<td><input type="email" name="email"></td>
+		</tr>
+		
+		<tr>
+			<td><label>Nama Ayah Kandung</label></td>
+			<td><input type="text" name="nama_ayah"></td>
+		</tr>
+		
+		<tr>
+			<td><label>Pekerjaan</label></td>
+			<td><input type="text" name="pekerjaan"></td>
+		</tr>
+		<tr>
+			<td><label>Alamat Orang Tua</label></td>
+			<td><input type="text" name="alamatortu"></td>
+		</tr>
+		<tr>
+			<td><label>Desa/Kel.</label></td>
+			<td><input type="text" name="desa"></td>
+		</tr>
+		<tr>
+			<td><label>Kecamatan</label></td>
+			<td><input type="text" name="kecamatan"></td>
+		</tr>
+		<tr>
+			<td><label>Kabupaten/Kota</label></td>
+			<td><input type="text" name="kota"></td>
+		</tr>
+		<tr>
+			<td><label>Provinsi</label></td>
+			<td><input type="text" name="provinsi"></td>
+		</tr>
+		<tr>
+			<br><br>
+			<td colspan="2" align="right"><input type="submit" value="Kirim" ></td>
+		</tr>
+	</table>
+	
+	</fieldset>	
+	</form>
+	
+</body>
+</html>
