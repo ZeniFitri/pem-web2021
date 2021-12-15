@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Operasi Logika</title>
+</head>
+<body>
+	<script type="text/javascript">
+		var aku = 27;
+		var kamu = 12;
+
+		var benar = aku > kamu;
+		var salah = aku < kamu;
+
+		//operator and
+		var hasil = benar && salah;
+		document.write(`${benar} && ${salah} = ${hasil} <br/>`);
+
+		//operator or
+		var hasil = benar || salah;
+		document.write(`${benar} || ${salah} = ${hasil} <br/>`);
+
+		//operasi not
+		var hasil = !benar ;
+		document.write(`!${benar} = ${hasil} <br/>`);
+	</script>
+</body>
+</html>
